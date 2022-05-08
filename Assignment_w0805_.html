@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0px;
+        }
+        #heading{
+            display: flex;
+            width: 100%;
+           
+            justify-content: center;
+            text-align: center;
+            font-size: 30px;
+            padding: 10px;
+            background-color: yellow;
+        }
+        #nav{
+            display: flex;
+            background-color: black;
+            
+            width: 100%;
+            height: 70px;
+            text-align: center;
+            align-items: center;
+            justify-content:center ;
+            
+           
+        }
+        #main div{
+        background-color: orangered;
+
+        padding: 10px;
+        margin-bottom: 30px;
+        text-align: center;
+      }
+        a{
+            text-decoration: none;
+           
+            margin: 50px auto;
+            color: antiquewhite;
+        }
+        #main {
+        display: flex;
+        }
+        #div1 {
+        flex: 1;
+        padding: 5px;
+        border-right: 2px solid black;
+      }
+      #iframe {
+        flex: 4;
+      }
+      iframe {
+        padding: 5px;
+        width: 100%;
+        height: 100vh;
+        border: none;
+      }
+    </style>
+</head>
+<body>
+    <heading id="heading">
+        <h1>Flipkart
+        </h1>
+        </heading>
+    <nav id="nav">
+        <a href="#">Home</a>
+        <a href="#">Contacts</a>
+        <a href="#">Help</a>
+        <a href="#">Setting</a>
+    </nav>
+    <main id="main">
+        <aside id="aside">
+            
+            <div >
+                <a style="color: black;"  href="assignment2_mobile_0850.html"  target="rightPanel">Mobile</a>
+                </div>
+                <div>
+                <a style="color: black;" href="assignment3_tv_0805.html" target="rightPanel">TV</a>
+                </div>
+                <div>
+                <a style="color: black;" href="assignment1_Laptop_0805.html" target="rightPanel">Laptop</a>
+                </div>
+                <div>
+                <a style="color: black;" href="assignment4_cloth_0850.html" target="rightPanel">Men's Clothing</a>
+            </div>
+        </aside>
+        <div style="background-color: white;" id="iframe">
+            <iframe name="rightPanel"> </iframe>
+          </div> 
+    </main>
+<footer id="footer"></footer>
+</body>
+</html>
